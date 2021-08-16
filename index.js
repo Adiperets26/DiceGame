@@ -20,3 +20,10 @@ if(randomNumber1 > randomNumber2){
   document.querySelector("h1").innerHTML = "Player 2 Win's! 🚩"
 }else
   document.querySelector("h1").innerHTML = "Its Draw! try again"
+
+document.querySelector(".refresh").addEventListener("click", refreshing);
+
+function refreshing() {
+  location.reload();
+}
+
