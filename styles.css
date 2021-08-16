@@ -7,7 +7,26 @@
 .dice {
   text-align: center;
   display: inline-block;
+}
 
+.roll {
+  position: relative;
+  text-align: center;
+  display:grid;
+}
+
+.buttonRefresh {
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.refresh {
+  background-color: #4ECCA3;
+  width: 5rem;
+  height: 2rem;
+  border-color: red;
+  border-radius: 6%;
 }
 
 body {
